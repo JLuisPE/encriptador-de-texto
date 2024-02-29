@@ -4,8 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de Textos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h2>Encriptador y Desencriptador</h2>
+        <label for="inputText">Texto a encriptar:</label>
+        <textarea type="text" id="inputText" placeholder="Ingrese el texto aquí"></textarea>
+        <button type="button" onclick="encriptar()">Encriptar</button>
+        <button type="button" onclick="desencriptar()">Desencriptar</button>
+        <label for="outputText">Texto encriptado/desencriptado:</label>
+        <textarea type="text" id="outputText" readonly placeholder="Texto encriptado/desencriptado"></textarea>
+        <button type="button" onclick="copiarTexto()">Copiar</button>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
