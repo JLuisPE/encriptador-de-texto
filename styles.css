@@ -1,37 +1,86 @@
 body {
-    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/imagenes/fondo.png');
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .container {
-    max-width: 400px;
-    margin: 50px auto;
-    padding: 20px;
+    background-color: #ffffff;
+    width: 40%;
+    margin-top: 15vh; 
+    margin-left: 58vh;
+    padding: 0px 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;   
+}
+
+h2 {
+    margin-top: 0px;
+    padding: 10px;
+    font-size: 25px;
+    
 }
 
 textarea {
     width: 100%;
     height: 100px;
     margin-bottom: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+}
+
+.entradaTexto {
+    resize: vertical;
+    }
+
+h6 {
+    text-align: left;
+    margin-top: 0px;
+    color: #DF0A0A;
+    font-style: normal;
+    font-size: 12px;
 }
 
 button {
-    display: block;
-    width: 100%;
+    display: inline-block;
+    width: 40%;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     background-color: #007bff;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-style: normal;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 button:hover {
     background-color: #0056b3;
 }
 
-#outputText {
-    resize: none;
+.salidaTexto {
+    resize: vertical;
+}
+
+footer {
+    margin-top: 5px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0;
 }
