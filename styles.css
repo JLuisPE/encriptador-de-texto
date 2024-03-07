@@ -60,21 +60,18 @@ button {
     margin-bottom: 20px;
     background-color: #007bff;
     color: #fff;
-    border: none;
-    border-radius: 5px;
+    border: 0.3svh solid black;
+    border-radius: 1svh;
+    
     cursor: pointer;
     font-family: 'Inter';
     font-size: 15px;
     font-style: normal;
-}
-
-.button-container {
-    display: flex;
-    justify-content: space-between;
-}
+    }
 
 button:hover {
     background-color: #0056b3;
+    box-shadow: 0 8px 8px black;
 }
 
 .salidaTexto {
@@ -82,8 +79,32 @@ button:hover {
 }
 
 footer {
-    margin-top: 5px;
-    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 5svh;
+    justify-content: center;
+    align-items: center;
+    gap: 1svh;
     color: #ffffff;
-    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.contact p{
+    font-size: 1.8svh;
+}
+
+.linkeind{
+    height: 3svh;
+}
+
+.linkeind:hover{
+    transform: scale(1.1);
+}
+
+.github{
+    height: 3svh;
+}
+
+.github:hover{
+    transform: scale(1.1);
 }
